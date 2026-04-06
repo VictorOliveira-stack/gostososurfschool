@@ -1426,6 +1426,9 @@ iframe {
     margin-top: 3.5em;
 }
 
+#testre{
+    display: none;
+}
 
 }
 
@@ -1887,9 +1890,7 @@ iframe {
     margin-top: 3.5em;
 }
 
-#testre{
-    display: none;
-}
+
 
 
 }
