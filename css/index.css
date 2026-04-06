@@ -9,7 +9,7 @@
 }*/
 
 
-@media(min-width: 320px) and (max-width: 425px){
+@media(min-width: 320px) and (max-width: 480px){
 
     body{
         font-family: "Ubuntu", sans-serif;
@@ -465,7 +465,12 @@ iframe {
 }
 
 /*426px and 1024px*/
-@media(min-width: 426px) and (max-width: 1024px){
+@media(min-width: 481px) and (max-width: 1024px){
+
+
+    #testre{
+        display: none;
+    }
 
     body{
         font-family: "Ubuntu", sans-serif;
@@ -1426,9 +1431,7 @@ iframe {
     margin-top: 3.5em;
 }
 
-#testre{
-    display: none;
-}
+
 
 }
 
