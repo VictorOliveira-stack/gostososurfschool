@@ -219,7 +219,8 @@
  #surftrip1{
     width: 100%;
     height: auto;
-    background: #131313;
+    /*background: #131313;*/
+    background: radial-gradient(circle,  #90e7fd 10%,#73ddf8 50%, #3fb0cc 100% );
     margin-top: -1.3em;
     position: relative;
 }
@@ -245,6 +246,28 @@
     position: relative;
     margin-top: 5em;
     z-index: 1;
+}
+
+#fotosSurftrip01{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+}
+
+#praiasVisitadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#praiasVisitadasH3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
  /*surf trip europa*/
@@ -731,7 +754,8 @@ iframe {
         #surftrip1{
             width: 100%;
             height: auto;
-            background: #131313;
+            /*background: #131313;*/
+            background: radial-gradient(circle,  #90e7fd 10%,#73ddf8 50%, #3fb0cc 100% );
             margin-top: -1.3em;
             position: relative;
         }
@@ -750,6 +774,15 @@ iframe {
             position: relative;
             margin-top: 5em;
             z-index: 1;
+        }
+
+        #fotosSurftrip01{
+            background-repeat: no-repeat;
+            height: 50em;
+            width: 80%;
+            align-items: center;
+            margin-left: 6em;
+            display: flex;
         }
 
     /*surf trip europa*/
@@ -1244,7 +1277,8 @@ iframe {
      #surftrip1{
         width: 100%;
         height: auto;
-        background: #131313;
+        /*background: #131313;*/
+        background: radial-gradient(circle,  #90e7fd 10%,#73ddf8 50%, #3fb0cc 100% );
         margin-top: -1.3em;
         position: relative;
     }
@@ -1264,6 +1298,15 @@ iframe {
         align-items: center !important;
         text-align: center;
         position: relative;
+    }
+
+    #fotosSurftrip01{
+            background-repeat: no-repeat;
+            height: 50em;
+            width: 80%;
+            align-items: center;
+            /*margin-left: 6em;*/
+            display: flex;
     }
 
     /*surf trip europa*/
@@ -1688,12 +1731,6 @@ iframe {
         z-index: 2;
     }
 
-
-
-    
-    
-   
-
     #carouselExampleFade{
         display: flex;
          justify-content: center !important;
@@ -1736,7 +1773,8 @@ iframe {
     #surftrip1{
         width: 100%;
         height: auto;
-        background: #131313;
+        /*background: #131313;*/
+        background: radial-gradient(circle,  #90e7fd 10%,#73ddf8 50%, #3fb0cc 100% );
         margin-top: -1.3em;
         position: relative;
     }
@@ -1756,6 +1794,15 @@ iframe {
         align-items: center !important;
         text-align: center;
         position: relative;
+    }
+
+    #fotosSurftrip01{
+        background-repeat: no-repeat;
+        height: 60em;
+        width: 80%;
+        align-items: center;
+        /*margin-left: 6em;*/
+        display: flex;
     }
 
     /*surf trip europa*/
